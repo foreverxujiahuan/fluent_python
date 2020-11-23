@@ -17,7 +17,7 @@ class StrKeyDict0(dict):
 
 
 if __name__ == '__main__':
-    d = StrKeyDict0([('2', 'two'), ('4', 'four')])
+    d = StrKeyDict0([('2', 'two'), ('4.text_bytes', 'four')])
     print(d['2'])
     print(d[4])
     print(d[1])
