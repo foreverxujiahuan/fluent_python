@@ -46,7 +46,7 @@ class Promotion(ABC):
         """返回折扣金额"""
 
 
-class FidelityPromo(Promotion): # 第一个具体策略
+class FidelityPromo(Promotion):  # 第一个具体策略
     """为积分为1000或以上顾客提供5%折扣"""
 
     def discount(self, order):
